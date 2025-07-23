@@ -1,0 +1,10 @@
+
+{
+  "back-to-home": "跳轉到首頁",
+    "counter_one": "一個被選中的",
+    "counter_other": "{{count}} 選中",
+    "counter_zero": "沒有選擇",
+    "h1": "一個客戶端頁面，用於展示客戶端端的國際化功能",
+    "title": "客戶頁面",
+    "to-second-client-page": "進入第二個客戶頁面"
+  }

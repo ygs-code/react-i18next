@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    
+        "baseUrl": "./",
+        "strict": true, // 保持严格模式开启
+ 
+        "paths": {
+            "src/*": ["src/*"],
+            "@/*": ["src/*"],
+            "@assets/*": ["src/assets/*"],
+            "@components/*": ["src/components/*"],
+            "@pages/*": ["src/pages/*"],
+            "@redux/*": ["src/redux/*"],
+            "@utils/*": ["src/utils/*"],
+        },
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "types": [
+            "react",
+            "node"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,           // 启用实验性的装饰器
+        "emitDecoratorMetadata": true,             // 为装饰器提供元数据的支持
+        "outDir": "./dist/",
+        "rootDir": "./src",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "ES6",
+        "jsx": "react-jsx", // 对于 TypeScript 4.x 和 React 17+
+        "allowJs": true,
+        "moduleResolution": "node",
+  },
+  "include": [  "src/**/*.ts", "src/**/*.tsx",   "typings.d.ts", "src/pages/SupervisorManagement/RoleManagement/index.js"],
+  "experimentalDecorators": true,
+  "exclude": ["node_modules" ,  "src/**/*.js"]
+}

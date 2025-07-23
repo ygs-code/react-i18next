@@ -1,0 +1,5 @@
+{
+  "description": "這是一個非頁面組件，需要有自己的命名空間。",
+  "helpLocize": "通過使用 <1>locize</1> ，您直接助力了 <3>i18next</3> 的未來發展。",
+  "languageSwitcher": "從 <1>{{lng}} </1> 更改爲： "
+}

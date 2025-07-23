@@ -1,0 +1,11 @@
+{
+  "liveServer.settings.port": 5502,
+  "svg.preview.background": "dark-transparent",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "files.associations": {
+    "*.svg": "xml"
+  }
+}

@@ -1,0 +1,13 @@
+**/node_modules/*
+**/dist/*
+src/components/Editor/react-draft-wysiwyg.css
+react-draft-wysiwyg.css
+src/components/LexicalEditor
+src/components/LexicalEditor1
+src/assets/css/katex 
+src/static/css/katex
+src/components/ViewPdf/AnnotationLayer.css
+
+
+
+src/components/ReactRangePicker 

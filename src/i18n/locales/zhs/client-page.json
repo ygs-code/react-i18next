@@ -1,0 +1,10 @@
+{
+  "back-to-home": "跳转到首页",
+  "counter_one": "一个被选中的",
+  "counter_other": "{{count}} 选中",
+  "counter_zero": "没有选择",
+  "h1": "一个客户端页面，用于展示客户端端的国际化功能",
+  "title": "客户页面",
+  "to-second-client-page": "进入第二个客户页面"
+}
+

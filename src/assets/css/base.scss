@@ -1,0 +1,76 @@
+ .ant-modal-body {
+   padding: 0;
+ }
+
+ .center-box {
+   width: 1400px;
+   height: auto;
+   margin: 0 auto;
+   overflow: visible;
+ }
+
+ .center {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   /* 使用css3的transform来实现 */
+ }
+
+ .ant-message {
+   .anticon {
+     top: -2px;
+   }
+ }
+
+ .ant-pagination {
+   .ant-pagination-item-link {
+     .anticon {
+       svg {
+         margin-top: -7px;
+       }
+     }
+   }
+ }
+
+
+ .ant-tabs {
+   .ant-tabs-tab-focus {
+     .ant-tabs-tab-btn {
+       outline: none !important;
+       outline-offset: 1px;
+       transition: outline-offset 0s, outline 0s;
+     }
+   }
+ }
+
+ .ant-btn-variant-solid {
+   background: rgb(212, 167, 103) !important;
+ }
+
+ .ant-modal .ant-modal-footer {
+   display: flex;
+   justify-content: center;
+   /* 主轴居中 */
+ }
+
+ .ant-table-wrapper {
+
+   .ant-table-cell-fix-left,
+   .ant-table-cell-fix-right {
+     z-index: 6 !important;
+   }
+ }
+
+
+
+ .react-viewer-list {
+   >li {
+     width: auto !important;
+     overflow: visible !important;
+
+     >img {
+       width: auto !important;
+     }
+   }
+ }

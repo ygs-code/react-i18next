@@ -1,0 +1,6 @@
+{
+    "navigationFallback": {
+      "rewrite": "/index.html",
+      "exclude": ["/static/*", "/static/js/*","/static/images/*","/static/css/*"]
+    }
+  }

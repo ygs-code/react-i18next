@@ -11,7 +11,7 @@ import './index.scss';
 // import "@/static/css/katex/katex.css";
 // import "./index.css";
 import '@/assets/css/base.scss';
-// import "@/assets/css/tailwind.css";
+import "@/assets/css/tailwind.css";
 
 import { ConfigProvider, Modal, Button } from 'antd';
 // 由于 antd 组件的默认文案是英文，所以需要修改为中文

@@ -11,7 +11,11 @@ const Index = (props) => {
     const { t } = useTranslations('index');
     return (
         <>
-            <h1>{t('h1')}</h1>
+            <h1
+            
+            className='bg-[red]  md:bg-[blue] '
+            
+            >{t('h1')}</h1>
             <div>{t('title')}</div>
 
             <div>{t('welcome')}</div>
